@@ -1,0 +1,245 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-all",
+      "menu-item#brands",
+      "menu-item#more"
+    ]
+  },
+  "menu-item#category-all": {
+    "props": {
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Category",
+        "text": "Category"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-all"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-all": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-all"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-all": {
+    "props": {
+      "orientation": "accessories",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#category-clothing",
+      "menu-item#category-accessories",
+      "menu-item#category-beer"
+    ]
+  },
+  "menu-item#category-clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Clothing",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-accessories": {
+    "props": {
+      "id": "menu-item-category-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessories",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-beer": {
+    "props": {
+      "id": "menu-item-category-beer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/beer",
+        "noFollow": false,
+        "tagTitle": "beer",
+        "text": "Beer"
+      }
+    }
+  },
+  "menu-item#brands": {
+    "props": {
+      "id": "menu-item-brands",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "brands",
+        "text": "Brands"
+      }
+    },    "blocks": [
+      "vtex.menu@2.x:submenu#brands"
+    ]
+},
+  "vtex.menu@2.x:submenu#brands": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#brands"
+    ]
+  },
+  "vtex.menu@2.x:menu#brands": {
+    "props": {
+      "orientation": "accessories",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#brand-budwiser",
+      "menu-item#brand-corona"
+    ]
+  },
+  "menu-item#brand-budwiser": {
+    "props": {
+      "id": "menu-item-category-beer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/budlight",
+        "noFollow": false,
+        "tagTitle": "beer",
+        "text": "Budwiser"
+      }
+    }
+  },
+  "menu-item#brand-corona": {
+    "props": {
+      "id": "menu-item-category-beer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/corona",
+        "noFollow": false,
+        "tagTitle": "beer",
+        "text": "Corona"
+      }
+    }
+  },
+
+
+
+
+
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-more",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More info",
+        "text": "More info"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  }
+}
