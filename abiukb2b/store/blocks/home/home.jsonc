@@ -8,21 +8,26 @@
       "flex-layout.row#shelf",
       "flex-layout.row#collage-rowText",
       "flex-layout.row#collage-row1",
-      "rich-text#question",
-      "newsletter"
+      "rich-text#shelf-Category-title",
+      "flex-layout.row#shelfCategory"
     ]
   },
 
-
-
-  "shelf#home": {
-    "blocks": ["product-summary.shelf"]
-  },
-
+//slider
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
     }
   },
   "slider-layout#demo-images": {
@@ -41,7 +46,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Your shop",
+      "text": "HOT ITEMS",
       "blockClass": "shelfTitle"
     }
   },
@@ -65,34 +70,6 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
-    }
-  },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
     }
   }
 }

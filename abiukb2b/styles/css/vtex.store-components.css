@@ -154,7 +154,9 @@
   border-width: 0;
 }
 
-
+.searchResultContainer--search-result-container{
+  padding: 0;
+}
 
 
 

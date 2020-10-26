@@ -10,6 +10,8 @@
   max-width: 60%;
 }
 
+
+
 .container--title .paragraph {
   line-height: 1.3em;
 }
@@ -90,6 +92,11 @@
   .container--about {
     max-width: 85%;
   }
-
+  .heading--shelfTitle{
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
 
 }

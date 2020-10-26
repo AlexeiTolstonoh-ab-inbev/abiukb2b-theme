@@ -1,0 +1,151 @@
+{
+  "flex-layout.row#collage-rowText": {
+  "props": {
+    "blockClass": "collage-rowTextWrapper",
+    "horizontalAlign": "center"
+  },
+    "children": ["flex-layout.col#collage-collumText"]
+  },
+  "flex-layout.col#collage-collumText": {
+    "props": {
+    "blockClass": "collage-collumText"
+  },
+    "children": ["rich-text#brandTitle","rich-text#brandText"]
+  },
+  "rich-text#brandTitle": {
+    "props": {
+      "text": "Explore Our Brands",
+      "blockClass": "brandTitle"
+    }
+  },
+
+  "rich-text#brandText": {
+    "props": {
+      "text": "From global giants Budweiser, Bud Light, Corona and Stella Artois, to international heroes Beck's, Leffe and Hoegaarden, and local champions Bass and Boddingtons. We're proud to brew so many of the world's leading premium beers and ciders.",
+      "blockClass": "brandText"
+    }
+  },
+
+
+  "flex-layout.row#collage-row1": {
+    "props": {
+      "blockClass": "collage-rowImagesBlock",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "stack-layout#first-image", "stack-layout#second-image",
+      "stack-layout#third-image",  "stack-layout#fourth-image"
+    ]
+  },
+  "stack-layout#first-image": {
+    "children": ["flex-layout.row#image1-layout", "flex-layout.row#image1-text"]
+      },
+  "stack-layout#second-image": {
+    "children": ["flex-layout.row#image2-layout", "flex-layout.row#image2-text"]
+  },
+  "stack-layout#third-image": {
+    "children": ["flex-layout.row#image3-layout", "flex-layout.row#image3-text"]
+  },
+  "stack-layout#fourth-image": {
+    "children": ["flex-layout.row#image4-layout", "flex-layout.row#image4-text"]
+  },
+
+
+  "flex-layout.row#image1-layout":{
+    "children": ["image#collage-image1"]
+  },
+  "flex-layout.row#image1-text": {
+    "children": ["link#imageLink1"]
+
+},
+  "link#imageLink1": {
+    "props": {
+      "blockClass": "image-link",
+      "label": "Chose Bud",
+      "href": "/bud"
+    }
+  },
+
+
+  "flex-layout.row#image2-layout":{
+    "children": ["image#collage-image3"]
+  },
+  "flex-layout.row#image2-text": {
+    "children": ["link#imageLink2"]
+
+  },
+  "link#imageLink2": {
+    "props": {
+      "blockClass": "image-link",
+      "label": "Chose Bud Light",
+      "href": "/budlight"
+    }
+  },
+
+  "flex-layout.row#image3-layout":{
+    "children": ["image#collage-image3"]
+  },
+  "flex-layout.row#image3-text": {
+    "children": ["link#imageLink3"]
+
+  },
+  "link#imageLink3": {
+    "props": {
+      "blockClass": "image-link",
+      "label": "Chose Corona",
+      "href": "/corona"
+    }
+  },
+
+  "flex-layout.row#image4-layout":{
+    "children": ["image#collage-image4"]
+  },
+  "flex-layout.row#image4-text": {
+    "children": ["link#imageLink4"]
+
+  },
+  "link#imageLink4": {
+    "props": {
+      "blockClass": "image-link",
+      "label": "Chose Stella",
+      "href": "/stella"
+    }
+  },
+  "image#collage-image1": {
+    "props": {
+      "title":"First image",
+      "min-height": "200",
+      "min-width": "400",
+      "blockClass": "collage-image",
+      "link": "/bud",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg"
+    }
+  },
+  "image#collage-image2": {
+    "props": {
+      "min-height": "200",
+      "min-width": "600",
+      "blockClass": "collage-image",
+      "link": "/budlight",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg"
+    }
+  },
+  "image#collage-image3": {
+    "props": {
+      "min-height": "200",
+      "min-width": "400",
+      "blockClass": "collage-image",
+      "link": "/corona",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg"
+    }
+  },
+  "image#collage-image4": {
+    "props": {
+      "min-height": "200",
+      "min-width": "400",
+      "blockClass": "collage-image",
+      "link": "/stella",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg"
+    }
+  }
+}

@@ -1,27 +1,27 @@
 {
-  "vtex.menu@2.x:menu#Products": {
+  "vtex.menu@2.x:menu#Categories": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
+      "menu-item#beer",
       "menu-item#blackfriday",
       "menu-item#sale",
       "menu-item#personalization"
     ]
   },
-  "menu-item#news": {
+  "menu-item#beer": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-category-beer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/beer",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Beer",
+        "text": "All beer"
       }
     }
   },
@@ -303,7 +303,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/clothing",
         "noFollow": true,
         "tagTitle": "Clothing",
         "text": "Clothing"

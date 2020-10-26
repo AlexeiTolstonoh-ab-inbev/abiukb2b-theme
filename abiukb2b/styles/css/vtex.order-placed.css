@@ -1,0 +1,88 @@
+.orderPlacedMainWrapper {
+	margin-bottom: 0;
+}
+
+.orderPlacedWrapper {
+	padding-top: 1.5rem;
+}
+
+.confirmationTitle {
+	margin: 1rem 0;
+}
+
+.section--confirmation {
+	margin-bottom: 0;
+}
+
+.confirmationMessage {
+	margin: 0 1rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) {
+	margin: 1rem 0;
+    text-align: center;
+}
+
+.attachmentWrapper {
+	display: none;
+}
+
+.section--notices {
+	margin-bottom: 0;
+}
+
+.noticesList {
+	background: transparent;
+    line-height: 1;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.noticeListItem {
+	border: none;
+	padding: 0 .2rem 0 0;
+    font-size: .75rem;
+    display: inline;
+    line-height: 1;
+}
+
+.section--pickupPackages {
+	border: none;
+}
+
+.productInfoColumn {
+	justify-content: flex-start;
+}
+
+.totalList {
+	margin: 1rem 0 2rem;
+    width: auto;
+}
+
+.totalListItemLabel {
+	padding-right: 2rem;
+}
+
+.productQuantity {
+	display: block;
+}
+
+.orderPlacedWrapper :global(.vtex-button) {
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid #083763;
+	min-height: auto;
+}
+
+.orderPlacedWrapper :global(.vtex-button__label) {
+	color: #083763;
+    padding: .5rem .8rem !important;
+}
+.orderPlacedWrapper :global(.vtex-button):hover {
+	background: #083763;
+	color: #fff;
+}
+
+.orderPlacedWrapper :global(.vtex-button__label):hover {
+	color: #fff;
+}

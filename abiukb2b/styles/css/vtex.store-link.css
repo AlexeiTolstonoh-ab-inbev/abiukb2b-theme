@@ -1,0 +1,18 @@
+
+.label--image-link {
+  color: white;
+  min-width: 200px;
+  width: 100%;
+  font-size: 1.3em;
+  top: 220px;
+  position: absolute;
+  left: 10px;
+  background: transparent;
+}
+.label--image-link::after {
+  content: "\2192";
+  position: absolute;
+  right:10px;
+  color: white;
+  top: 0px;
+}
