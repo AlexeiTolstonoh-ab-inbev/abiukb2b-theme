@@ -1,3 +1,15 @@
+:global(.vtex-slider__selector),
+:global(.vtex-slider__base-internal) {
+  background-color: red;
+}
+
+
+
+.filtersWrapper{
+  background: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
 .filter__container {
   border-bottom-style: none;
 }
@@ -70,7 +82,7 @@
 
 :global(.vtex-product-summary-2-x-element) :global(.vtex-button) {
   border: none;
-  background:sandybrown;
+  background:#f59122;
 }
 .galleryItem :global(.vtex-button) {
   outline-color: red;
@@ -193,9 +205,10 @@
 }
 :global(.vtex-search-result-3-x-filterItem--selected)
 :global(.vtex-checkbox__inner-container) {
-  background-color: #ffb831;
+  background-color: #b12025;
   border: 1px solid #707070;
 }
+
 .filterTemplateOverflow::-webkit-scrollbar {
   border-radius: 6px;
   padding: 5px;

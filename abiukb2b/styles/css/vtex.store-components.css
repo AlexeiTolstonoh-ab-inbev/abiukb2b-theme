@@ -1,3 +1,6 @@
+.productImageTag--main{
+  background: lightgray;
+}
 .container--collage-container{
   display: flex;
   justify-content: space-around;

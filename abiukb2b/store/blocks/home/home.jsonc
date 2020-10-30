@@ -7,9 +7,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "flex-layout.row#collage-rowText",
-      "flex-layout.row#collage-row1",
-      "rich-text#shelf-Category-title",
-      "flex-layout.row#shelfCategory"
+      "flex-layout.row#collage-row1"
     ]
   },
 

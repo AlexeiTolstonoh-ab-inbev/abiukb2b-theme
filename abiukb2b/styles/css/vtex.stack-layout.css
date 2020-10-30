@@ -7,3 +7,6 @@
   top: 0;
   left: auto;
 }
+.flexColChild--filterCol{
+  background: lightgray;
+}

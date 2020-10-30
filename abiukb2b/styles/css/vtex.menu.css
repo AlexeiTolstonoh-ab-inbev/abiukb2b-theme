@@ -4,6 +4,10 @@
 fontFamily: "Times New Roman",
 }
 .styledLinkContent:hover{
-  color: #010101;
+  color: red;
 }
+.menuItem :focus{
+  background: red;
+}
+
 

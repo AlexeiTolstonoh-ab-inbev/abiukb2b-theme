@@ -70,7 +70,7 @@
 "buy-button#product":{
 "props":{
 "onClickBehavior":"ensure-sku-selection",
-"blockClass":"button-buy"
+"blockClass":"button-buy--product"
 }
 },
 

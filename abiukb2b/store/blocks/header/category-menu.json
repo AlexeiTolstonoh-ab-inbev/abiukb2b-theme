@@ -37,60 +37,112 @@
   },
   "vtex.menu@2.x:menu#category-all": {
     "props": {
-      "orientation": "accessories",
+      "orientation": "vertical",
       "width": "100%"
     },
     "children": [
+      "menu-item#category-all-products",
+      "menu-item#category-bar-equipment",
       "menu-item#category-clothing",
-      "menu-item#category-accessories",
-      "menu-item#category-beer"
+      "menu-item#category-furniture",
+      "menu-item#category-glassware",
+      "menu-item#category-signage"
+
     ]
   },
-  "menu-item#category-clothing": {
+  "menu-item#category-all-products": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-category-all",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Clothing",
+        "href": "/all-products",
+        "noFollow": false,
+        "tagTitle": "all-products",
+        "text": "All products"
+      }
+    }
+  },
+  "menu-item#category-bar-equipment": {
+    "props": {
+      "id": "menu-item-category-bar-equipment",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/bar-equipment",
+        "noFollow": false,
+        "tagTitle": "bar-equipment",
+        "text": "Bar equipment"
+      }
+    }
+  },
+  "menu-item#category-clothing": {
+    "props": {
+      "id": "menu-item-category-Clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Clothing",
         "noFollow": false,
         "tagTitle": "Clothing",
         "text": "Clothing"
       }
     }
   },
-  "menu-item#category-accessories": {
+  "menu-item#category-furniture": {
     "props": {
-      "id": "menu-item-category-accessories",
+      "id": "menu-item-category-furniture",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/accessories",
+        "href": "/all-products/Furniture",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Furniture",
+        "text": "Furniture"
       }
     }
   },
-  "menu-item#category-beer": {
+  "menu-item#category-glassware": {
     "props": {
-      "id": "menu-item-category-beer",
+      "id": "menu-item-category-glassware",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/beer",
+        "href": "/all-products/Glassware",
         "noFollow": false,
-        "tagTitle": "beer",
-        "text": "Beer"
+        "tagTitle": "Glassware",
+        "text": "Glassware"
       }
     }
   },
+  "menu-item#category-signage": {
+    "props": {
+      "id": "menu-item-category-signage",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Signage",
+        "noFollow": false,
+        "tagTitle": "signage",
+        "text": "Signage"
+      }
+    }
+  },
+
+
+
   "menu-item#brands": {
     "props": {
       "id": "menu-item-brands",
@@ -118,32 +170,35 @@
   },
   "vtex.menu@2.x:menu#brands": {
     "props": {
-      "orientation": "accessories",
+      "orientation": "vertical",
       "width": "100%"
     },
     "children": [
-      "menu-item#brand-budwiser",
+      "menu-item#brand-budweiser",
+      "menu-item#brand-bud-light",
+      "menu-item#brand-becks",
+      "menu-item#brand-stella-artois",
       "menu-item#brand-corona"
     ]
   },
-  "menu-item#brand-budwiser": {
+  "menu-item#brand-budweiser": {
     "props": {
-      "id": "menu-item-category-beer",
+      "id": "menu-item-brand-beer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/budlight",
+        "href": "/budweiser",
         "noFollow": false,
         "tagTitle": "beer",
-        "text": "Budwiser"
+        "text": "Budweiser"
       }
     }
   },
   "menu-item#brand-corona": {
     "props": {
-      "id": "menu-item-category-beer",
+      "id": "menu-item-brand-beer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -156,8 +211,53 @@
       }
     }
   },
+  "menu-item#brand-bud-light": {
+    "props": {
+      "id": "menu-item-brand-bud-light",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bud-light",
+        "noFollow": false,
+        "tagTitle": "Budlight",
+        "text": "Budlight"
+      }
+    }
+  },
+  "menu-item#brand-becks": {
+    "props": {
+      "id": "menu-item-brand-becks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/beks",
+        "noFollow": false,
+        "tagTitle": "Becks",
+        "text": "Becks"
+      }
+    }
+  },
 
 
+  "menu-item#brand-stella-artois": {
+    "props": {
+      "id": "menu-item-brand-stella-artois",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/stella-artois",
+        "noFollow": false,
+        "tagTitle": "Stella-artois",
+        "text": "Stella Artois"
+      }
+    }
+  },
 
 
 
@@ -200,7 +300,7 @@
 
   "vtex.menu@2.x:menu#more": {
     "props": {
-      "orientation": "horyzontal"
+      "orientation": "horyzontalz"
     },
     "children": [
       "menu-item#about-us",

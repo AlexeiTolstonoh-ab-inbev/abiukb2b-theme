@@ -10,7 +10,7 @@
     "props": {
     "blockClass": "collage-collumText"
   },
-    "children": ["rich-text#brandTitle","rich-text#brandText"]
+    "children": ["rich-text#brandTitle"]
   },
   "rich-text#brandTitle": {
     "props": {
@@ -38,16 +38,16 @@
     ]
   },
   "stack-layout#first-image": {
-    "children": ["flex-layout.row#image1-layout", "flex-layout.row#image1-text"]
+    "children": ["flex-layout.row#image1-layout"]
       },
   "stack-layout#second-image": {
-    "children": ["flex-layout.row#image2-layout", "flex-layout.row#image2-text"]
+    "children": ["flex-layout.row#image2-layout"]
   },
   "stack-layout#third-image": {
-    "children": ["flex-layout.row#image3-layout", "flex-layout.row#image3-text"]
+    "children": ["flex-layout.row#image3-layout"]
   },
   "stack-layout#fourth-image": {
-    "children": ["flex-layout.row#image4-layout", "flex-layout.row#image4-text"]
+    "children": ["flex-layout.row#image4-layout"]
   },
 
 
