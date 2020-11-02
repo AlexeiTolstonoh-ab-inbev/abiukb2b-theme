@@ -1,12 +1,13 @@
 :global(.vtex-slider__selector),
 :global(.vtex-slider__base-internal) {
-  background-color: red;
+  background-color:  #b12025;
 }
-
-
-
+:global(.vtex-search-result-3-x-galleryItem),
+:global(.vtex-search-result-3-x-galleryItem--small){
+  height: auto;
+}
 .filtersWrapper{
-  background: lightgray;
+  background: #F7F7F7;
   padding: 10px;
   border-radius: 5px;
 }
@@ -64,10 +65,10 @@
   width: 100%;
   border-top: 5px solid #ffa935;
 }
-.galleryItem {
+:global(.vtex-search-result-3-x-galleryItem){
   border-radius: 8px;
   padding: 6px;
-  height: 387px;
+  min-height: 387px;
 }
 .galleryItem :global(.vtex-product-summary-2-x-container) {
   background: #ffffff;
@@ -314,9 +315,6 @@
   }
   .galleryItem :global(.vtex-product-summary-2-x-imageNormal) {
     min-height: 155px;
-  }
-  .galleryItem {
-    height: 434px;
   }
 }
 @media only screen and (min-width: 1025px) {

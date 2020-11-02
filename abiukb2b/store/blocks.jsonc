@@ -36,15 +36,12 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
+      "product-summary-description",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
       "add-to-cart-button"
     ]
   },
-
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,

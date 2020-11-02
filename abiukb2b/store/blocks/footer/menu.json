@@ -4,131 +4,107 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#beer",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#all",
+      "menu-item#bar-equipment",
+      "menu-item#clothing",
+      "menu-item#furniture",
+      "menu-item#glassware",
+      "menu-item#signage"
     ]
   },
-  "menu-item#beer": {
+  "menu-item#all": {
     "props": {
-      "id": "menu-category-beer",
+      "id": "menu-category-all",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/beer",
+        "href": "/all-products",
         "noFollow": false,
-        "tagTitle": "Beer",
-        "text": "All beer"
+        "tagTitle": "all",
+        "text": "All products"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#bar-equipment": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-bar-equipment",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/all-products/bar-equipment",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Bar equipment",
+        "text": "Bar equipment"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#clothing": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-clothing",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/all-products/Clothing",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Clothing",
+        "text": "Clothing"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#furniture": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-furniture",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/all-products/Furniture",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Furniture",
+        "text": "Furniture"
+      }
+    }
+  },
+  "menu-item#glassware": {
+    "props": {
+      "id": "menu-item-glassware",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Glassware",
+        "noFollow": false,
+        "tagTitle": "Glassware",
+        "text": "Glassware"
+      }
+    }
+  },
+  "menu-item#signage": {
+    "props": {
+      "id": "menu-item-signage",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Signage",
+        "noFollow": false,
+        "tagTitle": "Signage",
+        "text": "Signage"
       }
     }
   },
 
-  "vtex.menu@2.x:menu#footer-decoration": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
 
-  "menu-item#smartphones": {
-    "props": {
-      "id": "menu-item-smartphones",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/smartphones",
-        "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
-      }
-    }
-  },
 
-  "menu-item#videogames": {
-    "props": {
-      "id": "menu-item-videogames",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/videogames",
-        "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
-      }
-    }
-  },
-
-  "menu-item#tvs": {
-    "props": {
-      "id": "menu-item-tvs",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
-      }
-    }
-  },
 
   "vtex.menu@2.x:menu#footer-bags": {
     "props": {
@@ -189,17 +165,16 @@
     }
   },
 
-  "vtex.menu@2.x:menu#footer-clothing": {
+  "vtex.menu@2.x:menu#footer-brands": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#budweiser",
+      "menu-item#budlight",
+      "menu-item#becks",
+      "menu-item#stella-artois",
+      "menu-item#corona"
     ]
   },
 
@@ -208,185 +183,147 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#brand-mobile",
+      "menu-item#category-mobile"
     ]
   },
 
-  "menu-item#clothing-mobile": {
+  "menu-item#brand-mobile": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-brand",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Brands",
+        "text": "Brands"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#brand"]
   },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  "vtex.menu@2.x:submenu.accordion#brand": {
+    "children": ["vtex.menu@2.x:menu#brand-accordion"]
   },
 
-  "vtex.menu@2.x:menu#clothing-accordion": {
+  "vtex.menu@2.x:menu#brand-accordion": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#budweiser",
+      "menu-item#budlight",
+      "menu-item#becks",
+      "menu-item#stella-artois",
+      "menu-item#corona"
     ]
   },
 
-  "menu-item#decoration-mobile": {
+  "menu-item#category-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "Categories",
+        "text": "Categories"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#category"]
   },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  "vtex.menu@2.x:submenu.accordion#category": {
+    "children": ["vtex.menu@2.x:menu#category-mobile"]
   },
 
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+  "vtex.menu@2.x:menu#category-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#all",
+      "menu-item#bar-equipment",
+      "menu-item#clothing",
+      "menu-item#furniture",
+      "menu-item#glassware",
+      "menu-item#signage"
     ]
   },
 
-  "menu-item#sale-mobile": {
+  "menu-item#budweiser": {
     "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#clothing": {
-    "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-brand-budweiser",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing",
+        "href": "/Budweiser",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Budweiser",
+        "text": "Budweiser"
       }
     }
   },
 
-  "menu-item#shorts": {
+  "menu-item#becks": {
     "props": {
-      "id": "menu-item-shorts",
+      "id": "menu-brand-becks",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/Becks",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Becks",
+        "text": "Becks"
       }
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#budlight": {
     "props": {
-      "id": "menu-item-tank-tops",
+      "id": "menu-brand-budlight",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/budlight",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Budlight",
+        "text": "Budlight"
       }
     }
   },
 
-  "menu-item#shirts": {
+  "menu-item#stella-artois": {
     "props": {
-      "id": "menu-item-shirts",
+      "id": "menu-brand-stella",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shirts",
+        "href": "/stella-artois",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Stella Artois",
+        "text": "Stella Artois"
       }
     }
   },
 
-  "menu-item#sweatshirt": {
+  "menu-item#corona": {
     "props": {
-      "id": "menu-item-sweat-shirts",
+      "id": "menu-brand-corona",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/sweatshirt",
+        "href": "/Corona",
         "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
-      }
-    }
-  },
-
-  "menu-item#cropped": {
-    "props": {
-      "id": "menu-item-cropped",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/cropped",
-        "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
+        "tagTitle": "Corona",
+        "text": "Corona"
       }
     }
   }
