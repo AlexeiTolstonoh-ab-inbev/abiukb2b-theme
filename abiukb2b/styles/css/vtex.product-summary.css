@@ -1,9 +1,10 @@
+.imageContainer{
+  background: white;
+}
 .element{
   display: flex;
   justify-content: space-between;
 }
-
-
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }

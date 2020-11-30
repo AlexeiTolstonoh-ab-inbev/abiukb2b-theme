@@ -1,5 +1,11 @@
 .productImageTag--main{
-  background: lightgray;
+  background: #F3F4F6;
+}
+.logoImage{
+  width: 150px;
+}
+.logoImage--image-mobile{
+  width: 85px;
 }
 .container--collage-container{
   display: flex;
@@ -12,14 +18,20 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-
-
+.imageElement--image-top{
+  max-width: 1520px;
+  width: 100%;
+}
+:global(.vtex-store-components-3-x-imageElement--image-top){
+  max-width: 1520px;
+  width: 100%;
+}
 .imageElement--collage-image{
   margin: 0 auto;
-  filter: brightness(70%);
+  filter: brightness(100%);
 }
 .imageElement--collage-image:hover{
-  filter: brightness(100%);
+  filter: brightness(70%);
 }
 .container--slides{
   width: 100%;

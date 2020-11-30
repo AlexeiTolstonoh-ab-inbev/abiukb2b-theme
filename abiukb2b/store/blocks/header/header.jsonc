@@ -7,6 +7,7 @@
   },
   "header-layout.desktop": {
     "children": [
+    "age-gate",
       "flex-layout.row#1-desktop",
       "sticky-layout#4-desktop"
     ]
@@ -35,22 +36,39 @@
   "flex-layout.row#4-desktop": {
     "props": {
       "blockClass": "main-header",
-      "horizontalAlign": "center",
+      "horizontalAlign": "left",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": false
     },
     "children": [
       "flex-layout.col#logo",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
+
       "search-bar",
 //"locale-switcher"  ,
       "login",
       "minicart.v2"
     ]
   },
+  "flex-layout.col#brandLogo":{
+     "props": {
+        "verticalAlign": "middle"
+      },
+      "children": ["logo#brandLogoImage"]
+  },
+  "logo#brandLogoImage":{
+  "props": {
+      "horizontalAlign":"left",
+        "title": "Company-logo",
+        "href": "/",
+        "width": "150",
+        "url":"https://abiukb2b.vtexassets.com/assets/vtex.file-manager-graphql/images/f7343260-d0ab-4521-86e8-34cf7d5bbeea___f2a9ee4a949c65e3b0f859dde6f623a8.png"
+        }
+  },
+
   "flex-layout.col#logo": {
     "props": {
       "verticalAlign": "middle"
@@ -61,18 +79,19 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": ["vtex.menu@2.x:menu#"]
   },
   "logo": {
     "props": {
+    "horizontalAlign":"left",
       "title": "Company-logo",
       "href": "/",
-      "width": "180",
-      "url":"/arquivos/logo.jpg"
+      "width": "150",
+      "url":"https://abiukb2b.vtexassets.com/assets/vtex.file-manager-graphql/images/f7343260-d0ab-4521-86e8-34cf7d5bbeea___f2a9ee4a949c65e3b0f859dde6f623a8.png"
       }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": ["age-gate","sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
     "children": ["flex-layout.row#1-mobile"]
@@ -99,8 +118,7 @@
   "menu#drawer": {
     "children": [
       "menu-item#category-mobile-header",
-      "menu-item#brand-mobile-header",
-      "menu-item#more"
+      "menu-item#brand-mobile-header"
     ],
     "props": {
       "orientation": "vertical"
@@ -111,7 +129,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "width": "70"
+      "width": "150",
+      "blockClass":"image-mobile",
+      "url":"https://abiukb2b.vtexassets.com/assets/vtex.file-manager-graphql/images/f7343260-d0ab-4521-86e8-34cf7d5bbeea___f2a9ee4a949c65e3b0f859dde6f623a8.png"
     }
   }
 }

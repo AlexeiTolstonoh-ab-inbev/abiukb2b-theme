@@ -1,13 +1,18 @@
 .styledLinkContent{
   color: #707070;
   font-size: 16px;
-fontFamily: "Times New Roman",
+  width: 4.2em;
+  text-transform: capitalize;
 }
 .styledLinkContent:hover{
-  color: red;
+  color: #b12025;
+  font-weight: bold;
 }
 .menuItem :focus{
-  background: red;
+  background: #b12025;
+  font-weight: bold;
 }
+
+
 
 

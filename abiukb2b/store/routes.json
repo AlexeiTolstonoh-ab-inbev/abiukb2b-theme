@@ -1,8 +1,8 @@
 {
-  "store.custom#about-us": {
-    "path": "/about-us"
+  "store.custom#privacy-policy": {
+    "path": "/privacy-policy"
   },
-  "store.custom#faq": {
-    "path": "/faq"
+  "store.custom#terms-and-conditions": {
+    "path": "/terms-and-conditions"
   }
 }

@@ -59,7 +59,7 @@
           "base--inverted": "#03044e",
           "action-primary": "#f59122",
           "action-secondary": "#eef3f7",
-          "emphasis": "#f71963",
+          "emphasis": "#b12025",
           "disabled": "#f2f4f5",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -106,10 +106,10 @@
           "muted-5": "#f2f4f5"
         },
         "text": {
-          "action-primary": "#0F3E99",
+          "action-primary": "#f59122",
           "action-secondary": "#eef3f7",
           "link": "#0F3E99",
-          "emphasis": "#f71963",
+          "emphasis": "#b12025",
           "disabled": "#979899",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -151,7 +151,7 @@
         "border": {
           "action-primary": "#f59122",
           "action-secondary": "#eef3f7",
-          "emphasis": "#f71963",
+          "emphasis": "#b12025",
           "disabled": "#e3e4e6",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -256,7 +256,7 @@
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Times New Roman",
+        "fontFamily": "Arial",
         "fontWeight": "700",
         "fontSize": "1.5rem",
         "textTransform": "initial",
@@ -287,14 +287,13 @@
         "fontFamily": "Arial",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
-        "textTransform": "initial",
+        "textTransform": "capitalize",
         "letterSpacing": "0"
       },
       "body": {
         "fontFamily": "Arial",
         "fontWeight": "normal",
         "fontSize": "1rem",
-        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {

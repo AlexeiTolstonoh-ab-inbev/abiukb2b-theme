@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
+      "countdown",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "rich-text#shelf-title",
@@ -45,7 +46,8 @@
   "rich-text#shelf-title": {
     "props": {
       "text": "HOT ITEMS",
-      "blockClass": "shelfTitle"
+      "blockClass": "shelfTitle",
+        "textColor": "emphasis"
     }
   },
   "flex-layout.row#shelf": {

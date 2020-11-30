@@ -4,13 +4,15 @@
   justify-content: center;
 }
 .container--title {
-  color: #03034E;
+  color: #b12025;
   font-size: 40px;
   font-weight: 700;
   max-width: 60%;
 }
 
-
+.heading--shelfTitle{
+  color: #b12025;
+}
 
 .container--title .paragraph {
   line-height: 1.3em;
@@ -21,7 +23,7 @@
   font-weight: bold;
 }
 .container--shelfTitle {
-  color: #727273;
+  color: #b12025;
   justify-content: center;
   text-align: center;
 }
@@ -93,7 +95,6 @@
     max-width: 85%;
   }
   .heading--shelfTitle{
-    color: red;
     font-weight: bold;
     font-size: 24px;
     text-align: center;

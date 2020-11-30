@@ -5,8 +5,7 @@
     },
     "children": [
       "menu-item#category-all",
-      "menu-item#brands",
-      "menu-item#more"
+      "menu-item#brands"
     ]
   },
   "menu-item#category-all": {
@@ -20,7 +19,8 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Category",
-        "text": "Category"
+        "text": "Category",
+        "highlight": true
       }
     },
     "blocks": [
@@ -29,7 +29,7 @@
   },
   "vtex.menu@2.x:submenu#category-all": {
     "props": {
-      "width": "100%"
+      "blockClass": "submenu-brands"
     },
     "children": [
       "vtex.menu@2.x:menu#category-all"
@@ -37,9 +37,7 @@
   },
   "vtex.menu@2.x:menu#category-all": {
     "props": {
-      "orientation": "vertical",
-      "width": "100%",
-      "height": "50%"
+      "orientation": "vertical"
     },
     "children": [
       "menu-item#category-all-products",
@@ -48,7 +46,6 @@
       "menu-item#category-furniture",
       "menu-item#category-glassware",
       "menu-item#category-signage"
-
     ]
   },
   "menu-item#category-all-products": {
@@ -141,9 +138,6 @@
       }
     }
   },
-
-
-
   "menu-item#brands": {
     "props": {
       "id": "menu-item-brands",
@@ -157,13 +151,15 @@
         "tagTitle": "brands",
         "text": "Brands"
       }
-    },    "blocks": [
+    },
+    "blocks": [
       "vtex.menu@2.x:submenu#brands"
     ]
-},
+  },
   "vtex.menu@2.x:submenu#brands": {
-    "props": {
-      "width": "100%"
+    "props":{
+      "id": "menu-item-brand-beer",
+    "blockClass": "submenu-brands"
     },
     "children": [
       "vtex.menu@2.x:menu#brands"
@@ -171,8 +167,7 @@
   },
   "vtex.menu@2.x:menu#brands": {
     "props": {
-      "orientation": "vertical",
-      "width": "100%"
+      "orientation": "vertical"
     },
     "children": [
       "menu-item#brand-budweiser",
@@ -235,15 +230,13 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/beks",
+        "href": "/Becks",
         "noFollow": false,
         "tagTitle": "Becks",
         "text": "Becks"
       }
     }
   },
-
-
   "menu-item#brand-stella-artois": {
     "props": {
       "id": "menu-item-brand-stella-artois",
@@ -256,85 +249,6 @@
         "noFollow": false,
         "tagTitle": "Stella-artois",
         "text": "Stella Artois"
-      }
-    }
-  },
-
-
-
-  "menu-item#more": {
-    "props": {
-      "id": "menu-item-more",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "More info",
-        "text": "More info"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
-  },
-  "vtex.menu@2.x:submenu#more": {
-    "props": {
-      "width": "100%"
-    },
-    "children": [
-      "flex-layout.row#menu-more"
-    ]
-  },
-  "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.row#menu-more-1"
-    ]
-  },
-  "flex-layout.row#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
-
-  "vtex.menu@2.x:menu#more": {
-    "props": {
-      "orientation": "horyzontalz"
-    },
-    "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
-    ]
-  },
-  "menu-item#about-us": {
-    "props": {
-      "id": "menu-item-about-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/about-us",
-        "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
-      }
-    }
-  },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
       }
     }
   }

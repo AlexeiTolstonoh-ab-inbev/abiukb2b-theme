@@ -70,7 +70,7 @@
         "min-height": "200",
         "min-width": "400",
         "blockClass": "collage-image",
-        "link": "https://developerspace--abiukb2b.myvtex.com/corona",
+        "$ref": "/corona",
         "src": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
         "title": "brand image"
       }

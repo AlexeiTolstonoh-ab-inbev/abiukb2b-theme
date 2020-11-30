@@ -243,5 +243,9 @@
 
   "gallery": {
     "blocks": ["product-summary.shelf"]
+  },
+  "product-summary.shelf#search-page":{
+  "props":{
+  "blockClass":"search-page-container"}
   }
 }

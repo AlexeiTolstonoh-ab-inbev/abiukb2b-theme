@@ -210,7 +210,8 @@
 
   "vtex.menu@2.x:menu#brand-accordion": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "width": "100%"
     },
     "children": [
       "menu-item#budweiser",
@@ -326,5 +327,45 @@
         "text": "Corona"
       }
     }
+  },
+  "vtex.menu@2.x:menu#footer-politics": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#website-Privacy-policy",
+      "menu-item#terms-conditions"
+    ]
+  },
+  "menu-item#website-Privacy-policy": {
+    "props": {
+      "id": "website-Privacy-policy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacy-policy/",
+        "noFollow": false,
+        "tagTitle": "Website Privacy Policy UK",
+        "text": "Website Privacy Policy UK"
+      }
+    }
+  },
+  "menu-item#terms-conditions": {
+    "props": {
+      "id": "terms-and-conditions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "noFollow": false,
+        "tagTitle": "Terms & Conditions Website and Sale",
+        "text": "Terms & Conditions Website and Sale "
+      }
+    }
   }
 }
+

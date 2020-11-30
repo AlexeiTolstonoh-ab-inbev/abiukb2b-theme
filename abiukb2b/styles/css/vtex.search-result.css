@@ -1,3 +1,9 @@
+.render-container .render-route-store-search{
+  margin:0 auto;
+  max-width: 1520px;
+}
+
+
 :global(.vtex-slider__selector),
 :global(.vtex-slider__base-internal) {
   background-color:  #b12025;
@@ -35,7 +41,10 @@
   display: none;
 }
 .filterPopupArrowIcon {
-  display: none;
+  display: flex;
+  position: absolute;
+  top:10%;
+  right: 10px;
 }
 .filterPopupTitle {
   font-size: 16px;
@@ -318,6 +327,7 @@
   }
 }
 @media only screen and (min-width: 1025px) {
+
   :global(.vtex-checkbox__container) {
     background: white;
   }
@@ -369,6 +379,7 @@
     display: flex;
   }
   .galleryItem {
+    min-width: 25%;
     flex-basis: 25% !important;
     padding: 0 10px;
     margin-bottom: 20px;
@@ -416,9 +427,20 @@
 }
 
 @media screen and (min-width: 1201px) {
+  .gallery{
+    max-width: 1520px;
+  }
   .galleryItem {
-    flex-basis: 20% !important;
+    flex-basis: 25% !important;
     padding: 0 10px;
     margin-bottom: 20px;
+    max-width: 25%;
   }
+:global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-start;
+  }
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .gallery{
+    width: 80%;
+  }
+
 }

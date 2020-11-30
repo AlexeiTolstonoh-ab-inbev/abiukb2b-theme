@@ -8,6 +8,11 @@
  * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
  */
 {
+
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
   "store.account": {
     "blocks": ["my-account"],
     "parent": {
@@ -37,8 +42,7 @@
       "stack-layout#prodsum",
       "product-summary-name",
       "product-summary-description",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
+      "product-selling-price#summary",
       "add-to-cart-button"
     ]
   },
@@ -88,9 +92,15 @@
   "store.not-found#search": {
     "blocks": ["rich-text#not-found"]
   },
-  "store.custom#faq": {
+  "store.custom#terms-and-conditions": {
     "children": [
-      "flex-layout.row#faq"
+      "flex-layout.row#terms-and-conditions"
     ]
-  }
+  },
+
+    "store.custom#privacy-policy": {
+      "blocks": [
+        "flex-layout.row#privacy-policy"
+      ]
+    }
 }

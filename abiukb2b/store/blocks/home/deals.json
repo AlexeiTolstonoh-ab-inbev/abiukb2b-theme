@@ -7,7 +7,7 @@
       "flex-layout.col#deals4"
     ],
     "props": {
-      "blockClass": "deals"
+      "blockClass": "deals-container"
     }
   },
 
@@ -17,7 +17,7 @@
       "rich-text#deal1"
     ],
     "props": {
-      "blockClass": "deals-red"
+      "blockClass": "deals--red"
     }
   },
   "image#deal1": {
@@ -38,7 +38,7 @@
       "rich-text#deal2"
     ],
     "props": {
-      "blockClass": "deals-red"
+      "blockClass": "deals--red"
     }
   },
   "image#deal2": {
@@ -59,7 +59,7 @@
       "rich-text#deal3"
     ],
     "props": {
-      "blockClass": "deals-red"
+      "blockClass": "deals--red"
     }
   },
   "image#deal3": {
@@ -80,7 +80,7 @@
       "rich-text#deal4"
     ],
     "props": {
-      "blockClass": "deals-red"
+      "blockClass": "deals--red"
     }
   },
   "image#deal4": {
