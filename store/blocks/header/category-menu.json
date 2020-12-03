@@ -1,5 +1,5 @@
 {
-  "vtex.menu@2.x:menu#category-menu": {
+  "menu#category-menu": {
     "props": {
       "experimentalOptimizeRendering": true
     },
@@ -29,15 +29,15 @@
   },
   "vtex.menu@2.x:submenu#category-all": {
     "props": {
-      "blockClass": "submenu-brands"
+      "blockClass": "submenu-top"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-all"
+      "menu#category-all"
     ]
   },
-  "vtex.menu@2.x:menu#category-all": {
+  "menu#category-all": {
     "props": {
-      "orientation": "vertical"
+      "blockClass": "submenu-top-wrapper"
     },
     "children": [
       "menu-item#category-all-products",
@@ -159,15 +159,15 @@
   "vtex.menu@2.x:submenu#brands": {
     "props":{
       "id": "menu-item-brand-beer",
-    "blockClass": "submenu-brands"
+      "blockClass": "submenu-top"
     },
     "children": [
-      "vtex.menu@2.x:menu#brands"
+      "menu#brands"
     ]
   },
-  "vtex.menu@2.x:menu#brands": {
+  "menu#brands": {
     "props": {
-      "orientation": "vertical"
+      "blockClass": "submenu-top-wrapper"
     },
     "children": [
       "menu-item#brand-budweiser",

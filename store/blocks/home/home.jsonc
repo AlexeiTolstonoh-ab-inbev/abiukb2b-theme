@@ -2,7 +2,6 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      "countdown",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "rich-text#shelf-title",

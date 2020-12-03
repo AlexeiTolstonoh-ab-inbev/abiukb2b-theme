@@ -11,7 +11,9 @@
   },
   "product-selling-price#summary": {
     "props": {
-      "blockClass": "summary"
+      "blockClass": "summary",
+      "message": "Selling price: {sellingPriceValue}",
+      "message": "Selling price: {sellingPriceValue}"
     }
   },
   "product-price-savings#summary": {

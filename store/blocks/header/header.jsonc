@@ -79,7 +79,7 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#"]
+    "children": ["menu#category-menu"]
   },
   "logo": {
     "props": {
