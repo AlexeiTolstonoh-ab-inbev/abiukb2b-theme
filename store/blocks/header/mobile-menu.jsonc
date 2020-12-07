@@ -1,0 +1,60 @@
+{
+"menu-item#brand-mobile-header": {
+    "props": {
+      "id": "menu-item-brand",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Brands",
+        "text": "Brands"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#brand"]
+  },
+  "vtex.menu@2.x:submenu.accordion#brand": {
+    "children": ["vtex.menu@2.x:menu#brand-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#brand-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#budweiser",
+      "menu-item#budlight",
+      "menu-item#becks",
+      "menu-item#stella-artois",
+      "menu-item#corona"
+    ]
+  },
+  "menu-item#category-mobile-header": {
+      "props": {
+        "itemProps": {
+          "tagTitle": "Categories",
+          "text": "Categories"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#category"]
+    },
+    "vtex.menu@2.x:submenu.accordion#category": {
+      "children": ["vtex.menu@2.x:menu#category-mobile"]
+    },
+
+    "vtex.menu@2.x:menu#category-mobile": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#all",
+        "menu-item#bar-equipment",
+        "menu-item#clothing",
+        "menu-item#furniture",
+        "menu-item#glassware",
+        "menu-item#signage"
+      ]
+    }
+  }

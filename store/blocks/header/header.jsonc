@@ -1,0 +1,138 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+    "age-gate",
+      "flex-layout.row#1-desktop",
+      "sticky-layout#4-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#logo",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+        "flex-layout.col#brandLogo",
+        "flex-layout.col#spacer",
+      "search-bar",
+//"locale-switcher"  ,
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#brandLogo":{
+     "props": {
+          "verticalAlign": "middle"
+      },
+      "children": ["logo#brandLogoImage"]
+  },
+  "logo#brandLogoImage":{
+  "props": {
+      "horizontalAlign":"left",
+        "title": "Company-logo",
+        "href": "https://savepublife.com/",
+        "height":"45",
+        "width": "150",
+        "url":"https://abiukb2b.vtexassets.com/assets/vtex.file-manager-graphql/images/5a7941d4-8af6-46ef-be91-1d868bfdc9bf___57d2cd545ca4e7d392cf8192d31ce5c9.png"        }
+  },
+
+  "flex-layout.col#logo": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["menu#category-menu"]
+  },
+  "logo": {
+    "props": {
+    "horizontalAlign":"left",
+      "title": "Company-logo",
+      "href": "/",
+      "width": "150",
+      "url":"https://abiukb2b.vtexassets.com/assets/vtex.file-manager-graphql/images/f7343260-d0ab-4521-86e8-34cf7d5bbeea___f2a9ee4a949c65e3b0f859dde6f623a8.png"
+      }
+  },
+  "header-layout.mobile": {
+    "children": ["age-gate","sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-mobile-header",
+      "menu-item#brand-mobile-header"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "width": "150",
+      "blockClass":"image-mobile",
+      "url":"https://abiukb2b.vtexassets.com/assets/vtex.file-manager-graphql/images/f7343260-d0ab-4521-86e8-34cf7d5bbeea___f2a9ee4a949c65e3b0f859dde6f623a8.png"
+    }
+  }
+}

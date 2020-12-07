@@ -1,0 +1,371 @@
+{
+  "vtex.menu@2.x:menu#Categories": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#all",
+      "menu-item#bar-equipment",
+      "menu-item#clothing",
+      "menu-item#furniture",
+      "menu-item#glassware",
+      "menu-item#signage"
+    ]
+  },
+  "menu-item#all": {
+    "props": {
+      "id": "menu-category-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products",
+        "noFollow": false,
+        "tagTitle": "all",
+        "text": "All products"
+      }
+    }
+  },
+  "menu-item#bar-equipment": {
+    "props": {
+      "id": "menu-item-bar-equipment",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/bar-equipment",
+        "noFollow": false,
+        "tagTitle": "Bar equipment",
+        "text": "Bar equipment"
+      }
+    }
+  },
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Clothing",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#furniture": {
+    "props": {
+      "id": "menu-item-furniture",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Furniture",
+        "noFollow": false,
+        "tagTitle": "Furniture",
+        "text": "Furniture"
+      }
+    }
+  },
+  "menu-item#glassware": {
+    "props": {
+      "id": "menu-item-glassware",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Glassware",
+        "noFollow": false,
+        "tagTitle": "Glassware",
+        "text": "Glassware"
+      }
+    }
+  },
+  "menu-item#signage": {
+    "props": {
+      "id": "menu-item-signage",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Signage",
+        "noFollow": false,
+        "tagTitle": "Signage",
+        "text": "Signage"
+      }
+    }
+  },
+
+
+
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#bags",
+      "menu-item#backpacks",
+      "menu-item#necessaire"
+    ]
+  },
+
+  "menu-item#bags": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "Bags",
+        "text": "Bags"
+      }
+    }
+  },
+
+  "menu-item#backpacks": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Backpacks",
+        "text": "Backpacks"
+      }
+    }
+  },
+
+  "menu-item#necessaire": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Necessaire",
+        "text": "Necessaire"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-brands": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#budweiser",
+      "menu-item#budlight",
+      "menu-item#becks",
+      "menu-item#stella-artois",
+      "menu-item#corona"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#brand-mobile",
+      "menu-item#category-mobile"
+    ]
+  },
+
+  "menu-item#brand-mobile": {
+    "props": {
+      "id": "menu-item-brand",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Brands",
+        "text": "Brands"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#brand"]
+  },
+  "vtex.menu@2.x:submenu.accordion#brand": {
+    "children": ["vtex.menu@2.x:menu#brand-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#brand-accordion": {
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#budweiser",
+      "menu-item#budlight",
+      "menu-item#becks",
+      "menu-item#stella-artois",
+      "menu-item#corona"
+    ]
+  },
+
+  "menu-item#category-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Categories",
+        "text": "Categories"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#category"]
+  },
+  "vtex.menu@2.x:submenu.accordion#category": {
+    "children": ["vtex.menu@2.x:menu#category-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#category-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#all",
+      "menu-item#bar-equipment",
+      "menu-item#clothing",
+      "menu-item#furniture",
+      "menu-item#glassware",
+      "menu-item#signage"
+    ]
+  },
+
+  "menu-item#budweiser": {
+    "props": {
+      "id": "menu-item-brand-budweiser",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Budweiser",
+        "noFollow": true,
+        "tagTitle": "Budweiser",
+        "text": "Budweiser"
+      }
+    }
+  },
+
+  "menu-item#becks": {
+    "props": {
+      "id": "menu-brand-becks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Becks",
+        "noFollow": false,
+        "tagTitle": "Becks",
+        "text": "Becks"
+      }
+    }
+  },
+
+  "menu-item#budlight": {
+    "props": {
+      "id": "menu-brand-budlight",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/budlight",
+        "noFollow": false,
+        "tagTitle": "Budlight",
+        "text": "Budlight"
+      }
+    }
+  },
+
+  "menu-item#stella-artois": {
+    "props": {
+      "id": "menu-brand-stella",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/stella-artois",
+        "noFollow": false,
+        "tagTitle": "Stella Artois",
+        "text": "Stella Artois"
+      }
+    }
+  },
+
+  "menu-item#corona": {
+    "props": {
+      "id": "menu-brand-corona",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Corona",
+        "noFollow": false,
+        "tagTitle": "Corona",
+        "text": "Corona"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-politics": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#website-Privacy-policy",
+      "menu-item#terms-conditions"
+    ]
+  },
+  "menu-item#website-Privacy-policy": {
+    "props": {
+      "id": "website-Privacy-policy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacy-policy/",
+        "noFollow": false,
+        "tagTitle": "Website Privacy Policy UK",
+        "text": "Website Privacy Policy UK"
+      }
+    }
+  },
+  "menu-item#terms-conditions": {
+    "props": {
+      "id": "terms-and-conditions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "noFollow": false,
+        "tagTitle": "Terms & Conditions Website and Sale",
+        "text": "Terms & Conditions Website and Sale "
+      }
+    }
+  }
+}
+

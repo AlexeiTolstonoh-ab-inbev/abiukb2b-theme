@@ -1,0 +1,152 @@
+:global(.vtex-store__template){
+  max-width: 1520px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-flexRowContent--deals-container){
+  background-color: #b12025;
+}
+:global(.vtex-flex-layout-0-x-flexCol--deals--red) {
+  display: flex;
+  justify-content: center;
+  background-color: #b12025;
+  align-items: center;
+  padding: 10px;
+}
+.flexColChild--deals--red{
+  background-color: #b12025;
+  display: flex;
+  align-items: center;
+}
+.flexRow--deals-container{
+  background: #b12025;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: #b12025;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+.col--deals4{
+  background: #b12025;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+.flexRow--collage-collumText{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.flexRowContent--collage-container{
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flexColChild--collage-colWrapper{
+  background: #b12025;
+  text-align: center;
+  width: 50%;
+}
+
+.flexColChild--collage-collumText{
+  padding: 0 57px;
+}
+}

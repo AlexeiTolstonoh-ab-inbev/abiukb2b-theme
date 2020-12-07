@@ -1,0 +1,255 @@
+{
+  "menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-all",
+      "menu-item#brands"
+    ]
+  },
+  "menu-item#category-all": {
+    "props": {
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Category",
+        "text": "Category",
+        "highlight": true
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-all"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-all": {
+    "props": {
+      "blockClass": "submenu-top"
+    },
+    "children": [
+      "menu#category-all"
+    ]
+  },
+  "menu#category-all": {
+    "props": {
+      "blockClass": "submenu-top-wrapper"
+    },
+    "children": [
+      "menu-item#category-all-products",
+      "menu-item#category-bar-equipment",
+      "menu-item#category-clothing",
+      "menu-item#category-furniture",
+      "menu-item#category-glassware",
+      "menu-item#category-signage"
+    ]
+  },
+  "menu-item#category-all-products": {
+    "props": {
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products",
+        "noFollow": false,
+        "tagTitle": "all-products",
+        "text": "All products"
+      }
+    }
+  },
+  "menu-item#category-bar-equipment": {
+    "props": {
+      "id": "menu-item-category-bar-equipment",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/bar-equipment",
+        "noFollow": false,
+        "tagTitle": "bar-equipment",
+        "text": "Bar equipment"
+      }
+    }
+  },
+  "menu-item#category-clothing": {
+    "props": {
+      "id": "menu-item-category-Clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Clothing",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-furniture": {
+    "props": {
+      "id": "menu-item-category-furniture",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Furniture",
+        "noFollow": false,
+        "tagTitle": "Furniture",
+        "text": "Furniture"
+      }
+    }
+  },
+  "menu-item#category-glassware": {
+    "props": {
+      "id": "menu-item-category-glassware",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Glassware",
+        "noFollow": false,
+        "tagTitle": "Glassware",
+        "text": "Glassware"
+      }
+    }
+  },
+  "menu-item#category-signage": {
+    "props": {
+      "id": "menu-item-category-signage",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-products/Signage",
+        "noFollow": false,
+        "tagTitle": "signage",
+        "text": "Signage"
+      }
+    }
+  },
+  "menu-item#brands": {
+    "props": {
+      "id": "menu-item-brands",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "brands",
+        "text": "Brands"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#brands"
+    ]
+  },
+  "vtex.menu@2.x:submenu#brands": {
+    "props":{
+      "id": "menu-item-brand-beer",
+      "blockClass": "submenu-top"
+    },
+    "children": [
+      "menu#brands"
+    ]
+  },
+  "menu#brands": {
+    "props": {
+      "blockClass": "submenu-top-wrapper"
+    },
+    "children": [
+      "menu-item#brand-budweiser",
+      "menu-item#brand-bud-light",
+      "menu-item#brand-becks",
+      "menu-item#brand-stella-artois",
+      "menu-item#brand-corona"
+    ]
+  },
+  "menu-item#brand-budweiser": {
+    "props": {
+      "id": "menu-item-brand-beer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/budweiser",
+        "noFollow": false,
+        "tagTitle": "beer",
+        "text": "Budweiser"
+      }
+    }
+  },
+  "menu-item#brand-corona": {
+    "props": {
+      "id": "menu-item-brand-beer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/corona",
+        "noFollow": false,
+        "tagTitle": "beer",
+        "text": "Corona"
+      }
+    }
+  },
+  "menu-item#brand-bud-light": {
+    "props": {
+      "id": "menu-item-brand-bud-light",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bud-light",
+        "noFollow": false,
+        "tagTitle": "Budlight",
+        "text": "Budlight"
+      }
+    }
+  },
+  "menu-item#brand-becks": {
+    "props": {
+      "id": "menu-item-brand-becks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Becks",
+        "noFollow": false,
+        "tagTitle": "Becks",
+        "text": "Becks"
+      }
+    }
+  },
+  "menu-item#brand-stella-artois": {
+    "props": {
+      "id": "menu-item-brand-stella-artois",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/stella-artois",
+        "noFollow": false,
+        "tagTitle": "Stella-artois",
+        "text": "Stella Artois"
+      }
+    }
+  }
+}

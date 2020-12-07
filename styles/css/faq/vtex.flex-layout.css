@@ -1,0 +1,20 @@
+.flexRowContent--faq {
+  max-width: 700px;
+  margin: auto;
+}
+.flexRowContent{
+  background: white;
+}
+.flexRowContent--main-header{
+  background: white;
+}
+
+.flexRow--deals{
+  background: red;
+}
+.flexCol--deals-red{
+  background: red;
+}
+.flex-layout .flexCol--deals-red{
+  background: red;
+}

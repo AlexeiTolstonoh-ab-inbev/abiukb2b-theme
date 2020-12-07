@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#terms-and-conditions": {
+    "props": {
+    "fullWidth":true,
+      "blockClass": "terms-and-conditions-wrapper"
+    },
+    "children":["flex-layout.col#terms-and-conditions-wrapper-container"]
+    },
+
+    "flex-layout.col#terms-and-conditions-wrapper-container":{
+    "children": [
+      "terms-and-conditions"
+    ]
+  }
+}
+
