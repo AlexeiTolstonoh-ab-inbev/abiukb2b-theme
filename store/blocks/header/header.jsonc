@@ -20,8 +20,6 @@
     }
   },
 
-
-
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
