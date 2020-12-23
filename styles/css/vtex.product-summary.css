@@ -8,6 +8,15 @@
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
+.SKUSelectorContainer{
+  min-height: 100px;
+  margin: 0;
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer), :global(.vtex-product-summary-2-x-skuSelectorContainer){
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 
 .container :global(.vtex-modal-layout-0-x-triggerContainer) {
   opacity: 0;

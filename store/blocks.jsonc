@@ -37,15 +37,30 @@
       "showInstallments": true
     }
   },
-  "product-summary.shelf": {
+  "product-summary.shelf#home": {
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "product-summary-description",
-      "product-selling-price#summary",
+      //"product-summary-description",
+     "product-summary-sku-selector#shelf",
+     "product-summary-quantity#shelf",
+"product-selling-price#product-shelf-inc-vat",
+"product-selling-price#product-shelf-exc-vat",
       "add-to-cart-button"
     ]
   },
+"product-summary-quantity#shelf":{
+"props":{
+"blockClass":"quantity-shelf"
+}
+},
+"product-summary-sku-selector#shelf": {
+  "props":{
+    "showVariationsLabels": ["false"],
+    "hideImpossibleCombinations": true
+  }
+},
+
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
@@ -55,8 +70,8 @@
   },
   "stack-layout#prodsum": {
     "children": [
-      "product-summary-image#shelf",
-      "modal-trigger#quickview"
+      "product-summary-image#shelf"
+      //"modal-trigger#quickview"
     ]
   },
 

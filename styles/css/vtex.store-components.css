@@ -110,6 +110,16 @@
 .skuSelectorContainer {
   margin: 1rem 0;
 }
+:global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
+   height: 30px;
+   width: 30px;
+ }
+:global(.vtex-product-summary-2-x-skuSelectorItemTextValue),
+:global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+  padding: 5px;
+  font-size: 137%;
+}
+
 
 @media only screen and (min-width: 640px) {
   .newsletter .container {

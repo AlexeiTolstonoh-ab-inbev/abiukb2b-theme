@@ -9,13 +9,38 @@
       "blockClass": "summary"
     }
   },
-  "product-selling-price#summary": {
-    "props": {
-      "blockClass": "summary",
-      "message": "Selling price: {sellingPriceValue}",
-      "message": "Selling price: {sellingPriceValue}"
-    }
-  },
+    "product-selling-price#product-details-exc-vat": {
+      "props": {
+        "showInstallments": true,
+        "showSavings": true,
+         "message": "{sellingPriceValue} (exc.VAT)",
+         "blockClass": "selling-price-exc-vat"
+      }
+    },
+    "product-selling-price#product-details-inc-vat":{
+        "props": {
+          "showInstallments": true,
+          "showSavings": true,
+           "message": "{sellingPriceWithTax} (inc.VAT)",
+           "blockClass": "selling-price-inc-vat"
+        }
+    },
+        "product-selling-price#product-shelf-exc-vat": {
+          "props": {
+            "showInstallments": true,
+            "showSavings": true,
+             "message": "{sellingPriceValue} (exc.VAT)",
+             "blockClass": "selling-price-shelf-exc-vat"
+          }
+        },
+        "product-selling-price#product-shelf-inc-vat":{
+            "props": {
+              "showInstallments": true,
+              "showSavings": true,
+               "message": "{sellingPriceWithTax} (inc.VAT)",
+               "blockClass": "selling-price-shelf-inc-vat"
+            }
+        },
   "product-price-savings#summary": {
     "props": {
       "markers": [
@@ -43,7 +68,6 @@
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price#summary",
       "product-price-savings#summary"
     ]
   },

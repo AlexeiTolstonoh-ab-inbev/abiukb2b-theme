@@ -3,8 +3,10 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "skusFilter": "ALL_AVAILABLE",
+          "hideUnavailableItems": true,
+        "simulationBehavior": "skip",
+        "hideUnavailableItems": true
       }
     }
   },
@@ -16,7 +18,8 @@
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 10,
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
+          "hideUnavailableItems": true,
         "simulationBehavior": "skip"
       }
     }
@@ -26,7 +29,8 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
+          "hideUnavailableItems": true,
         "simulationBehavior": "skip"
       }
     }
@@ -36,7 +40,8 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
+          "hideUnavailableItems": true,
         "simulationBehavior": "skip"
       }
     }
@@ -46,7 +51,8 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
+          "hideUnavailableItems": true,
         "simulationBehavior": "skip"
       }
     }
@@ -242,10 +248,20 @@
   },
 
   "gallery": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf#search-page"]
   },
   "product-summary.shelf#search-page":{
   "props":{
-  "blockClass":"search-page-container"}
+  "blockClass":"search-page-container"},
+      "children": [
+        "stack-layout#prodsum",
+        "product-summary-name",
+        //"product-summary-description",
+       "product-summary-sku-selector#shelf",
+       "product-summary-quantity#shelf",
+  "product-selling-price#product-shelf-inc-vat",
+  "product-selling-price#product-shelf-exc-vat",
+        "add-to-cart-button"
+      ]
   }
 }

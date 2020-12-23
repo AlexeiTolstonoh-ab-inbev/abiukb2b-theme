@@ -17,6 +17,20 @@
 .submenuWrapper--submenu-top--isOpen{
   min-width: 300px;
   width: 100%;
+  border:2px solid #efefef;
+}
+
+.submenuWrapper--submenu-top--isOpen ::before {
+  background: #fff;
+  border-left: 2px solid #efefef;
+  border-top: 2px solid #efefef;
+  content: "";
+  height: 1rem;
+  position: absolute;
+  left: 1.5rem;
+  top: -.6rem;
+  transform: rotate(45deg);
+  width: 1rem;
 }
 .submenu--submenu-top{
   justify-content: center;

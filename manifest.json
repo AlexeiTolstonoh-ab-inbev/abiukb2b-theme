@@ -1,7 +1,7 @@
 {
   "vendor": "abiukb2b",
   "name": "abiukb2b-theme",
-  "version": "0.0.4",
+  "version": "0.0.9",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -13,6 +13,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "abiukb2b.weekend-popup": "0.x",
     "abiukb2b.privacy-policy": "0.x",
     "abiukb2b.terms-conditions": "0.x",
     "abiukb2b.age-gate": "0.x",
