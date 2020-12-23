@@ -13,8 +13,7 @@
       "vtex.menu@2.x:menu#Categories",
       "vtex.menu@2.x:menu#footer-brands",
       "vtex.menu@2.x:menu#footer-politics",
-      "footer-spacer",
-      "social-networks"
+      "flex-layout.col#info"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -22,7 +21,17 @@
       "paddingBottom": 3
     }
   },
+  "flex-layout.col#info": {
+    "children": ["social-networks","rich-text#information"]
 
+  },
+  "rich-text#information": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "for any Customer enquiries please contact: onestoppubshop@ab-inbev.com"
+    }
+  },
   "social-networks": {
     "props": {
       "socialNetworks": [
