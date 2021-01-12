@@ -260,8 +260,8 @@
        "product-summary-sku-selector#shelf",
        "product-summary-quantity#shelf",
   "product-selling-price#product-shelf-inc-vat",
-  "product-selling-price#product-shelf-exc-vat",
-        "add-to-cart-button"
+  "product-selling-price#product-shelf-exc-vat"
+        ,"add-to-cart-button#product"
       ]
   }
 }

@@ -46,7 +46,7 @@
      "product-summary-quantity#shelf",
 "product-selling-price#product-shelf-inc-vat",
 "product-selling-price#product-shelf-exc-vat",
-      "add-to-cart-button"
+"add-to-cart-button#product"
     ]
   },
 "product-summary-quantity#shelf":{

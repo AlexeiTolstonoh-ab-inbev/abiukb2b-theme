@@ -42,7 +42,7 @@
     },
     "children": [
       "vtex.store-components:product-name",
-      "product-rating-summary",
+      //"product-rating-summary",
       "product-selling-price#product-details-inc-vat",
       "product-selling-price#product-details-exc-vat",
       "product-separator",
@@ -65,12 +65,11 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 7
-    },
-    "children": ["add-to-cart-button#product"]
+    }
+   ,    "children": ["add-to-cart-button#product"]
   },
 "add-to-cart-button#product":{
 "props":{
-
 "blockClass":"button-buy--product"
 }
 },

@@ -184,7 +184,8 @@
     },
     "children": [
       "menu-item#brand-mobile",
-      "menu-item#category-mobile"
+      "menu-item#category-mobile",
+      "vtex.menu@2.x:menu#footer-politics"
     ]
   },
 
