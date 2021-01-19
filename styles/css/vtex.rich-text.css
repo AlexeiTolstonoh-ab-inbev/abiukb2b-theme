@@ -3,6 +3,9 @@
   text-align: center;
   justify-content: center;
 }
+.paragraph--copyrightFooter,.paragraph--copyrightResponse{
+  font-size: 13px;
+}
 .container--title {
   color: #b12025;
   font-size: 40px;

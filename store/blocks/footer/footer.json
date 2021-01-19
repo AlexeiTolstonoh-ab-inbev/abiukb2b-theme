@@ -5,7 +5,8 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop"
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -66,12 +67,73 @@
       "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
     }
   },
+  "flex-layout.row#footer-3-desktop": {
+    "children": [ "rich-text#copyright", "rich-text#responseDrink"],
+    "props": {
+      "blockClass": "drinkResp"
+    }
+  },
+  "rich-text#copyright": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "© 2021 AB InBev UK Limited T/A Budweiser Brewing Group UK&I.ALL RIGHTS RESERVED.\nPLEASE DO NOT SHARE OR FORWARD THIS WEBSITE OR ITS CONTENTS TO ANYONE UNDER 18",
+      "font": "heading",
+      "blockClass": "copyrightFooter"
+    }
+  },
+  "rich-text#responseDrink": {
+    "props": {
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "text": "[www.drinkaware.co.uk](http://www.drinkaware.co.uk)\nPLEASE DRINK RESPONSIBLY",
+      "blockClass": "copyrightResponse",
+      "font": "heading"
+    }
+  },
 
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile"
     ]
+  },
+  "flex-layout.row#3-footer-mobile": {
+    "children": ["flex-layout.col#footer-2-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-2-mobile": {
+    "children": [
+      "rich-text#copyrightmobile", "rich-text#responseDrinkmobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },  "rich-text#copyrightmobile": {
+  "props": {
+    "textAlignment": "CENTRE",
+    "textPosition": "CENTRE",
+    "text": "© 2021 AB InBev UK Limited T/A Budweiser Brewing Group UK&I.ALL RIGHTS RESERVED.\nPLEASE DO NOT SHARE OR FORWARD THIS WEBSITE OR ITS CONTENTS TO ANYONE UNDER 18",
+    "font": "heading",
+    "blockClass": "copyrightFooter"
+  }
+},
+  "rich-text#responseDrinkmobile": {
+    "props": {
+      "textAlignment": "CENTRE",
+      "textPosition": "CENTRE",
+      "text": "[www.drinkaware.co.uk](http://www.drinkaware.co.uk)\nPLEASE DRINK RESPONSIBLY",
+      "blockClass": "copyrightResponse",
+      "font": "heading"
+    }
   },
   "flex-layout.row#2-footer-mobile": {
     "children": ["flex-layout.col#footer-1-mobile"],
